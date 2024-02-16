@@ -95,10 +95,8 @@
 % \renewcommand{\glsxtrabbreviationfont}[1]{\textcolor{myteal}{\glsxtrifwasfirstuse{{{\let\glsfirstlonguserfont\glslonguserfont}#1}}{\texttt{#1}}}}
 
 \renewcommand{\glsxtrregularfont}[1]{\textcolor{violet}{\glsxtrifwasfirstuse{{#1}}{#1}}}
-% \renewcommand{\glsxtrabbreviationfont}[1]{\textcolor{myteal}{\glsxtrifwasfirstuse{{#1}}{\texttt{#1}}}}
 \renewcommand{\glsxtrabbreviationfont}[1]{{\glsxtrifwasfirstuse{{#1}}{#1}}}
 
-% \renewcommand{\glsfirstabbrvuserfont}[1]{\textcolor{myteal}{\texttt{#1}}}
 \renewcommand{\glsfirstabbrvuserfont}[1]{{#1}}
 
 \renewcommand*{\glsxtrsetupfulldefs}{%
@@ -112,8 +110,6 @@
 \definecolor{codegray}{gray}{0.9}
 
 \newcommand{\code}[1]{{\texttt{#1}}}
-
-\newcommand{\yht}[1]{{\color{red}[YHT: #1]}}
 
 %% This package should be here! don't move it!
 \usepackage{cleveref}
